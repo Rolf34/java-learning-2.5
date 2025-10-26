@@ -7,9 +7,6 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 
-/**
- * Represents a task within a project.
- */
 public class Task extends ProjectEntity {
     public enum TaskPriority { LOW, MEDIUM, HIGH, CRITICAL }
 
