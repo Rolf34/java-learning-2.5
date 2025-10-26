@@ -22,10 +22,8 @@ public class Position extends OrganizationalUnit {
         this.minSalary = minSalary;
         this.maxSalary = maxSalary;
         this.requiredSkills = new HashSet<>();
-        this.accessLevel = 1; // Default access level
+        this.accessLevel = 1; 
     }
-
-    // Implementing abstract methods from OrganizationalUnit
     @Override
     public String getType() {
         return "Position";
@@ -47,7 +45,6 @@ public class Position extends OrganizationalUnit {
         }
     }
 
-    // Position-specific methods
     public double getMinSalary() {
         return minSalary;
     }
